@@ -1,0 +1,373 @@
+html {
+  height: 100%;
+}
+
+body{
+	min-height:100%;
+	height: 100%;
+	padding:0;
+	color: white;
+	margin:0;
+}
+
+body.home{
+	background: url("/LA/image/steak1.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
+}
+
+body.profile{
+	background: url("/LA/image/profileBG.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
+}
+
+body.contact{
+	background: url("/LA/image/cup1.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
+}
+
+.bGShade{
+	background-color: rgba(0,0,0,0.5);
+	margin: 0px;
+	position: relative;
+	border: 0px solid rgba(0,0,0,0);
+}
+
+.saladsnacksBG{
+	background: url("/LA/image/saladsnacksBG.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
+}
+
+.burgersteaksBG{
+	background: url("/LA/image/burgersteaksBG.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
+}
+
+.seafoodsoupsBG{
+	background: url("/LA/image/seafoodsoupsBG.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
+}
+
+.dessertsBG{
+	background: url("/LA/image/dessertsBG.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
+}
+
+.beveragesBG{
+	background: url("/LA/image/beveragesBG.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
+}
+
+.kidsBG{
+	background: url("/LA/image/dessert1.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
+}
+
+.wrapper{
+	margin: auto auto auto 227px;
+	border-top: 1px solid rgba(0,0,0,0);
+	border-bottom: 1px solid rgba(0,0,0,0);
+	border-left: 0px solid rgba(0,0,0,0);
+	border-right: 3px solid rgba(0,0,0,0);
+	position: relative;
+	max-width: 100%;
+	transition: all 1.5s ease 0s;
+}
+
+.menuTypesOfFood{
+	text-align: left;
+	width: 227px;
+	height: 100%;
+	float: none;
+	box-sizing: border-box;
+	border-right: 3px solid red;
+	background-color: rgba(0,0,0,0.2);
+	margin-top: 130px;
+	margin-bottom: 70px;
+	position: fixed;
+	transition: all 1.5s ease 0s;
+}
+
+.listTypesOfFood{
+	text-align: left;
+	list-style-type: square;
+	max-width: 100%;
+	min-width: 200px;
+	margin: 179px auto 100px;
+	float: none;
+	box-sizing: border-box;
+}
+
+.menuTypesOfFoodUL{
+	margin-top: 50px;
+	padding-left: 3px;
+}
+
+.menuTypesOfFoodUL li{
+    font-family: 'Pathway Gothic One', sans-serif;
+    margin: 20px 0;
+    text-transform: uppercase;
+	list-style-type: none;
+	white-space: nowrap;
+	text-decoration: none;
+}
+
+.menuTypesOfFoodUL li a{
+	line-height: 50px;
+	font-size: 20px;
+	display: block;
+	height: 50px;
+	padding-left: 10px;
+	transition: all 0.7s ease 0s;
+	position: left-center;
+}
+
+.menuTypesOfFoodUL li a:link {
+    text-decoration: none;
+	color: white;
+}
+
+.menuTypesOfFoodUL li a:visited {
+    text-decoration: none;
+	color: white;
+}
+
+.menuTypesOfFoodUL li a:hover {
+    text-decoration: none;
+	color: black;
+	background: linear-gradient(to right, white, rgba(0,0,0,0))
+}
+
+.menuTypesOfFoodUL li a:active {
+    text-decoration: none;
+	color: green;
+}
+
+.thumbsInMenu{
+	padding: 5px;
+}
+
+.flipper {
+	margin: 1px;
+	width: 220px;
+	height: 320px;
+	font-size: 15px;
+	display: inline-block;
+	border: 2px solid rgba(255,128,0,0.7);
+	background-color: rgba(0,0,0,0.7);
+}
+
+.catagorizedThumbs{
+	padding: 3px;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.catagorizedThumbs h3, .catagorizedThumbs h5{
+	font-family: 'Didact Gothic', sans-serif;
+	width: 55%;
+	float: left;
+	padding: 3px;
+	margin-top: 2px;
+}
+
+.catagorizedThumbs h3{
+	font-size: 18px;
+}
+
+.catagorizedThumbs h5{
+	font-size: 12px;
+	height: 2px;
+}
+
+.catagorizedThumbs h4{
+	font-family: 'Didact Gothic', sans-serif;
+	font-size: 18px;
+	float: right;
+	display: inline;
+	padding: 3px;
+	height: 5px;
+	margin-top: 100px;
+}
+
+.catagorizedThumbs.thumbFront h3 {
+	margin-top: 50px;
+}
+
+.catagorizedThumbs.thumbBack h3{
+	font-size: 17px;
+	width: 100%;
+}
+
+.catagorizedThumbs.thumbBack h4{
+	font-size: 12px;
+	height: 3px;
+	margin-top: 2px;
+}
+
+.thumbBack h5:nth-of-type(even), .thumbBack h4:nth-of-type(even){
+	color : rgb(170,170,170);
+}
+
+.catagorizedThumbs img{
+	width:100%;
+	float: left;
+}
+
+.subMenuTitle {
+	font-family: 'Didact Gothic', sans-serif;
+	font-size: 30px;
+	background-color: rgba(255,0,0,0.8);
+	margin-top: 9px;
+}
+
+.subMenuText{
+	padding-left:5px;
+}
+
+.currentLink{
+	background: linear-gradient(to right, rgba(0,0,0,0.4) , red);
+	border-right: 3px dotted red;
+}
+
+.thumbFront{
+	z-index: 2;
+}
+
+.thumbBack{
+	transform: rotateY(180deg);
+}
+
+.flipper.flipped .thumbFront{
+	transform: rotateY(180deg);
+}
+
+.flipper.flipped .thumbBack{
+	transform: rotateY(0);
+}
+
+.flipper {
+	position: relative;
+	transition: all 0.7s ease 0s;
+}
+
+.flipper:hover {
+	background: radial-gradient(rgba(200,0,0,0.5), rgba(0,0,0,0.5));
+	cursor: pointer;
+	}
+
+.thumbFront, .thumbBack {
+	backface-visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: all 0.6s ease 0s;
+	transform-style: preserve-3d;
+}
+
+@media screen and (max-width:720px) {
+	.bGShade{
+		margin-top: 0;
+	}
+	.wrapper{
+		min-width: 450px;
+		margin-left: 140px;
+	}
+	.listTypesOfFood{
+		margin-top: 109px;
+	}
+	.menuTypesOfFood{
+		width: 140px;
+		margin-top: 60px;
+	}
+	.thumbsInMenu{
+		text-align: center;
+	}
+	.flipper {
+		width: 70%;
+		height: 400px;
+	}	
+	.catagorizedThumbs h3, .catagorizedThumbs h5{
+		text-align: left;
+	}
+	.catagorizedThumbs h4{
+		text-align: right;
+	}
+	
+	
+	.AboutUsTitle{
+		color: black;
+	}
+	.AboutUs, .OE{
+		width: 100%;
+		margin-top: -40px;
+	}
+	.row2{
+		margin-top: -40px;
+	}
+	.row2 div{
+		display: block;
+		width: 100%;
+		text-align: left;
+	}
+	.row2 .address{
+		border-right: 0px solid black;
+		border-bottom: 3px solid black;
+	}
+	.moreEnquires{
+		margin: 0px;
+		border-bottom: 0px;
+	}
+	
+	.fullWrapper{
+		width: 90%;
+		border-left: 0px;
+		border-right: 0px;
+	}
+	.contactWrapper{
+		width: 100%;
+	}
+	.socialMedias{
+		width: 100%;
+	}
+}
+
+.footer{
+	position: relative;
+	border-top: 4px solid red;
+	border-left: 60px solid rgba(0,0,0,0);
+	border-right: 60px solid rgba(0,0,0,0);
+	background-color: black;
+	height: 70px;
+	text-decoration: bold;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+
+.footer h6{
+	margin-left: -50px;
+	font-size: 11px;
+	font-family: "Arial", Helvetica, sans-serif
+}

@@ -1,0 +1,25 @@
+body{
+	overflow: hidden;
+}
+.socialMedias{
+	padding: 25px;
+	font-family: 'Didact Gothic', sans-serif;
+	width: 50%;
+	position: relative;
+	top: 250px;
+	margin-left: auto;
+	margin-right:auto;
+	margin-bottom: 50px;
+	text-align: center;
+	background-color: rgba(0,0,0,0.67);
+}
+
+.facebook, .insta, .twitter, .toForm{
+	border: 0px solid white;
+	padding: 10px;
+	display: inline-block;
+}
+
+.socialMedias a:hover{
+	border-bottom: 3px solid grey;
+}

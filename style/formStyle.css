@@ -1,0 +1,131 @@
+.fullWrapper{
+	padding: 0px 30px;
+	background-color: rgba(175,175,175,0.85);
+	color: black;
+	font-family: 'Didact Gothic', sans-serif;
+	font-size: 22px;
+	margin: auto;
+	border-top: 1px solid rgba(0,0,0,0);
+	border-bottom: 0px solid black;
+	border-left: 15px groove gray;
+	border-right: 15px ridge gray;
+	position: relative;
+	width: 55%;
+	transition: all 1.5s ease 0s;
+}
+
+.fullWrapper h1{
+	color: red;
+	margin-top: 130px;
+	font-size: 40px;
+	
+}
+
+.fullWrapper h3{
+	margin-top: -50px;
+}
+
+.formContent{
+	width: 100%;
+}
+
+legend{
+	font-size: 27px;
+	font-family: 'Didact Gothic', sans-serif;
+	font-weight: bold;
+	padding: 0px 40px;
+}
+
+.formS{
+	text-align: center;
+}
+
+.submitButton {
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+	font-weight: bold;
+    display: inline-block;
+    font-size: 15px;
+    margin: 25px auto;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: rgb(225,0,0); 
+    color: black; 
+    border: 4px solid red;
+}
+
+.submitButton:hover {
+    background-color: rgb(25,25,25);
+    color: red;
+	border: 4px solid black;
+}
+
+.submitButton span {
+  color: black; 
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.submitButton span:after {
+  content: '>';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.submitButton:hover span {
+  padding-right: 25px;
+  color: red;
+}
+
+.submitButton:hover span:after {
+  opacity: 1;
+  right: 0;
+  color: red;
+}
+
+input[type=text], textarea, input[type=date], input[type=time]{
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 3px groove rgba(255,255,255,0.5);
+    border-radius: 4px;
+    box-sizing: border-box;
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+	font-size: 12px;
+}
+
+input[type=text], textarea{
+	width: 70%;	
+}
+
+input[type=date], input[type=time]{
+	text-align: center;
+	width: 170px;
+}
+
+::-webkit-datetime-edit { padding: 0px; }
+::-webkit-datetime-edit-fields-wrapper { background: rgba(0,0,0,0); }
+::-webkit-datetime-edit-text { color: white; padding: 0 0.3em; }
+::-webkit-datetime-edit-month-field { color: white; }
+::-webkit-datetime-edit-day-field { color: white; }
+::-webkit-datetime-edit-year-field { color: white; }
+::-webkit-inner-spin-button { display: none; }
+::-webkit-calendar-picker-indicator { background: rgba(0,0,0,0); }
+::-webkit-clear-button{ display: none; }
+
+textarea{
+	resize: vertical;
+	max-height: 322px;
+}
+
+input[type=text]:focus, textarea:focus, input[type=date]:focus, input[type=time]:focus{
+	border: 3px groove rgba(255,0,0,1);
+	outline: none !important;
+}

@@ -1,0 +1,109 @@
+.bigAboutUs{
+	position: relative;
+}
+
+.AboutUsTitle{
+	margin-top: -140px;
+	padding-left: 30px;
+	font-family: 'Pathway Gothic One', sans-serif;
+	color: rgba(230,230,230,0.7);
+	font-size: 50px;
+}
+
+.AboutUsTitle h1{
+	padding-top: 200px;
+}
+
+.AboutUs{
+	margin: 150px auto 0px;
+	font-size: 40px;
+	width: 74%;
+	background-color: rgba(0,0,0,0.8);
+	font-family: 'Pathway Gothic One', sans-serif;
+	color: white;
+	position: relative;
+}
+
+.AboutUs p{
+	padding: 90px 50px;
+}
+
+.row2{
+	margin: 150px auto 0px;
+	max-width: 100%;
+	background-color: rgba(220,220,220,0.95);
+	border: 0px solid rgba(0,0,0,0);
+	position: relative;
+	padding: 50px;
+	border-top: 10px groove rgb(50,50,50);
+	border-bottom: 10px ridge rgb(50,50,50);
+}
+
+.address, .operatingHour{
+	width: 49%;
+	font-size: 25px;
+	color: black;
+	font-family: 'Pathway Gothic One', sans-serif;
+	display: inline-block;
+}
+
+.address{
+	border-right: 2px solid black;
+}
+
+.address h4, .operatingHour h4{
+	font-family: 'Pathway Gothic One', sans-serif;
+	font-size: 30px;
+	font-weight: normal;
+	text-align: center;
+}
+
+.address p, .operatingHour p{
+	padding : 5px 50px 0px;
+	text-align: center;
+}
+
+.OE{
+	background-color: rgba(0,0,0,0.7);
+	color: rgb(230,230,230);
+	position: relative;
+	width: 74%;
+	margin: 150px auto 0px;
+}
+
+.OE h1{
+	display: block;
+	font-family: 'Pathway Gothic One', sans-serif;
+	font-size: 50px;
+	font-weight: bold;
+	padding: 20px 0px 0px 20px;
+}
+
+.OE h2{
+	font-family: 'Pathway Gothic One', sans-serif;
+	font-size: 40px;
+	font-weight: normal;
+}
+
+.employment{
+	padding: 15px 30px;
+	display: inline-block;
+	width: 40%;
+}
+
+.employment, .oeInfo{
+	font-family: 'Pathway Gothic One', sans-serif;
+	font-size: 25px;
+}
+
+.moreEnquires{
+	border-top: 10px solid black;
+	border-bottom: 10px solid black;
+	font-family: 'Pathway Gothic One', sans-serif;
+	font-size: 37px;
+	font-weight: normal;
+	padding: 25px 50px;
+	background-color: rgba(220,220,220,0.98);
+	margin: 150px auto 150px;
+	color: black;
+}
